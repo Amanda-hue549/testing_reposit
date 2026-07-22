@@ -1,0 +1,55 @@
+<!--
+<p></p> = parágrafo
+<ul></ul> = unordered list
+<li></li> = lista
+--------------------------------------------------------------------------------------------------------------------------------------
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <img src="" alt="My test image" />
+  </body>
+</html>
+
+Essa parte é a criação de um HTML file, precisa necessariamente ter essa parte para um doc de HTML funcionar como tal.
+
+!doctype html>: O doctype é um preâmbulo obrigatório. Nos primórdios, quando o HTML ainda era recente (por volta de 1991/92),
+os doctypes serviam como links para um conjunto de regras que a página HTML precisava seguir para ser considerada um HTML válido —
+o que podia incluir verificação automática de erros e outras funcionalidades úteis. Hoje em dia, no entanto,
+eles não desempenham um papel tão ativo; são necessários basicamente para garantir que o documento se comporte corretamente.
+Isso é tudo o que você precisa saber por enquanto.
+<html></html>: O elemento <html> envolve todo o conteúdo da página e é frequentemente chamado de elemento raiz. Ele também inclui
+o atributo lang, que define o idioma principal do documento.
+<head></head>: O elemento <head> funciona como um contêiner para tudo o que você deseja incluir na página HTML, exceto o conteúdo
+que será exibido aos visitantes. Isso inclui itens como palavras-chave e uma descrição da página para resultados de busca,
+CSS para estilização, declarações de conjunto de caracteres, entre outros.
+<meta charset="utf-8">: Este elemento define o conjunto de caracteres do documento como UTF-8, abrangendo a maioria dos caracteres
+da vasta maioria das línguas escritas. Essencialmente, ele permite lidar com qualquer conteúdo textual que você insira na página.
+Não há motivo para não defini-lo, e isso pode ajudar a evitar problemas futuros.
+<meta name="viewport" content="width=device-width">: Este elemento viewport garante que a página seja renderizada com a
+largura da área de visualização (viewport) do navegador, evitando que navegadores móveis renderizem páginas mais largas que a tela
+e depois as reduzam.
+<title></title>: O elemento <title> define o título da página — aquele que aparece na aba do navegador onde a página está carregada.
+Ele também é usado para descrever a página quando você a adiciona aos favoritos ou marcadores.
+<body></body>: O elemento <body> contém todo o conteúdo que você deseja exibir aos usuários da web ao visitarem sua página,
+seja texto, imagens, vídeos, jogos, faixas de áudio reproduzíveis ou qualquer outra coisa. No momento, ele contém apenas
+um elemento <img>, mas adicionaremos mais conteúdo posteriormente.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<img src="" alt="My test image" /> = Code para colocar imagem.
+
+Inside the first-website folder, create a new folder called images, and put the image you chose in the previous example
+inside this folder.
+Inside the <img> tag's src attribute value, enter the path to your image. It is inside a folder called images,
+which is inside the same directory as your index.html file, therefore the path will be images/ plus the name of your image.
+For example, if your image was called firefox-icon.png, your src attribute would look like this: src="images/firefox-icon.png".
+Replace the alt attribute value — My test image — with some text that better describes your image.
+Open your index.html file inside a web browser. You should see your image displayed. If not, check your <img> element against our code;
+make sure it is not missing any of the syntax, such as the quote marks. Make sure the image filename is correct.
+
