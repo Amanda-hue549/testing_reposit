@@ -1,7 +1,5 @@
 <!--
-<p></p> = parágrafo
-<ul></ul> = unordered list
-<li></li> = lista
+HTML (HyperText Markup Language)
 --------------------------------------------------------------------------------------------------------------------------------------
 <!doctype html>
 <html lang="en-US">
@@ -53,3 +51,11 @@ Replace the alt attribute value — My test image — with some text that better
 Open your index.html file inside a web browser. You should see your image displayed. If not, check your <img> element against our code;
 make sure it is not missing any of the syntax, such as the quote marks. Make sure the image filename is correct.
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+<p></p> = parágrafo
+<ul></ul> = unordered list
+<li></li> = lista
+<em></em> = itálico
+<strong></strong> = negrito
+<a></a> = faz com que uma parte do texto se transforme em link
